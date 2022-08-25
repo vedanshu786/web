@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Shizuru&display=swap');
+body{
+    background-color: burlywood;
+}
+*{
+    margin:0;
+    padding: 0;;
+}
+
+nav{
+    font-family: 'Calligraffitti', cursive;
+    color: white;
+
+}
+ nav ul{
+     display:flex;
+     align-items: center;
+     list-style-type: none;
+     height: 70px;
+     background-color: black;
+ }
+ nav ul li{
+     padding: 0 12px;
+ }
+ .brand img{
+     padding: 0 15px;
+     width: 40px;
+     height: 57px;
+     border-radius: 40px;
+ }
+ .brand{
+     display:flex;
+     align-items: center;
+     font-weight:bold;
+     font-size: 1.9rem;
+ }
+ .container{
+     min-height: 65vh;
+     background-color: black;
+     Color: white;
+     font-family: 'Shizuru', cursive;
+     margin : 20px auto;
+     width: 75%;
+     border-radius: 20px;
+     padding : 34px;
+     background-image: url('data:image/jpeg;base64,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');
+ 
+    }
+ .bottom{
+     position: sticky;
+     height:120px;
+     background-color: rgba(87, 10, 10, 0.76);
+     bottom:0;
+     align-items: center;
+     display:flex;
+     justify-content: center;
+     color:white;
+     flex-direction: column;
+     
+ }
+ .icons{
+     margin :20px 0;
+     align-items: center;
+ }
+ .icons i{
+     cursor: pointer;
+ }
+ #myprogressbar{
+     width: 100vw;
+     cursor: pointer;
+
+ }
+
+ .songitem{
+     height: 58px;
+     display: flex;
+     background-color: rgb(55, 167, 182);
+     color: black;
+     width: 40%;
+     align-items: centre;
+     padding : 0 15px;
+     border-radius: 40px;
+     justify-content: space-between;
+     margin:10px 0;
+
+ }
+ .songitem img{
+     border-radius: 90px ;
+     padding: 3px 0;
+     height:90%;
+     
+ }
+
+ .time i {
+    cursor: pointer;
+ }
+ .songitemcontainer{
+     margin: 12px;
+ }
+ 
+ 
+
+ 
