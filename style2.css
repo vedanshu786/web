@@ -1,0 +1,23 @@
+body{
+    background-color: aqua;
+    color:rgb(216, 9, 9);
+    font-family: cursive;
+    font-size: large;
+
+}
+.bottom{
+    display: flex;
+    font-size: larger;
+    background-color: rgb(155, 155, 32);
+    color: black;
+    padding: 0 12px;
+}
+.top{
+    display: flex;
+}
+.a {
+    padding: 0 130px;
+}
+.b{
+    padding: 0 130px;
+}

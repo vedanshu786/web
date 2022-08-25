@@ -1,0 +1,124 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <h1> CPI CALCULATOR</h1>
+    <H4>IF YOU HAVE NOT DONE ANY SEMESTER LEAVE IT</H4>
+    
+    <div class="top">
+    
+        <div class="a">
+        SEM 1 CREDITS: <input type="text" id="cred1" size="20" name="fname"><br>
+        SEM 1 CPI: <input type="text" id="cpi1"><br><br><br><br>
+        SEM 2 CREDITS: <input type="text" id="cred2" size="20" name="fname"><br>
+        SEM 2 CPI: <input type="text" id="cpi2"><br><br><br><br>
+        SEM 3 CREDITS: <input type="text" id="cred3" size="20" name="fname"><br>
+        SEM 3 CPI: <input type="text" id="cpi3"><br><br><br><br>
+        SEM 4 CREDITS: <input type="text" id="cred4" size="20" name="fname"><br>
+        SEM 4 CPI: <input type="text" id="cpi4"><br><br><br><br>
+        </div>
+        <div class="b">
+        SEM 5 CREDITS: <input type="text" id="cred5" size="20" name="fname"><br>
+        SEM 5 CPI: <input type="text" id="cpi5"><br><br><br><br>
+        SEM 6 CREDITS: <input type="text" id="cred6" size="20" name="fname"><br>
+        SEM 6 CPI: <input type="text" id="cpi6"><br><br><br><br>
+        SEM 7 CREDITS: <input type="text" id="cred7" size="20" name="fname"><br>
+        SEM 7 CPI: <input type="text" id="cpi7"><br><br><br><br>
+        SEM 8 CREDITS: <input type="text" id="cred8" size="20" name="fname"><br>
+        SEM 8 CPI: <input type="text" id="cpi8"><br><br><br><br>
+        </div>
+    </div>
+        
+    <div class="bottom">
+    <button onclick="myfunc()">CALCULATE CPI</button>
+    <p id="demo"></p>
+
+    </div>
+<script>
+    
+    function myfunc(){
+        var one=0
+        var one1=0;
+        var two = 0;
+        var two2=0;
+        var three=0;
+        var three3=0;
+        var four=0;
+        var four4=0;
+        var five=0;
+        var five5=0;
+        var six=0;
+        var six6=0;
+        var seven=0;
+        var seven7=0;
+        var eight=0;
+         one = document.getElementById("cred1").value;
+         one1 = document.getElementById("cpi1").value; 
+        
+         two = document.getElementById("cred2").value;
+         two2 = document.getElementById("cpi2").value;
+         
+         three = document.getElementById("cred3").value;
+         three3 = document.getElementById("cpi3").value;
+         
+         four = document.getElementById("cred4").value;
+         four4 = document.getElementById("cpi4").value;
+         
+         five = document.getElementById("cred5").value;
+         five5 = document.getElementById("cpi5").value; 
+        
+         six = document.getElementById("cred6").value;
+         six6 = document.getElementById("cpi6").value; 
+        
+         seven = document.getElementById("cred7").value;
+         seven7 = document.getElementById("cpi7").value;
+         
+         eight = document.getElementById("cred8").value;
+         eight8 = document.getElementById("cpi8").value; 
+         if(one1==""){one1=0;}
+        if(two==""){two=0;}
+        if(two2==""){two2=0;}
+        if(three==""){three=0;}
+        if(three3==""){three3=0;}
+        if(four==""){four=0;}
+        if(four4==""){four4=0;}
+        if(five==""){five=0;}
+        if(five5==""){five5=0;}
+        if(six==""){six=0;}
+        if(six6==""){six6=0;}
+        if(seven==""){seven=0;}
+        if(seven7==""){seven7=0;}
+        if(eight==""){eight=0;}
+        if(eight8==""){eight8=0;}
+        
+        
+
+        var a = one*one1;
+        var b = two*two2;
+        var c = three*three3;
+        var d = four*four4;
+        var e = five*five5;
+        var f = six*six6;
+        var g = seven*seven7;
+        var h = eight*eight8;
+        var karan= parseInt(one)+parseInt(two)+parseInt(three)+parseInt(five)+parseInt(four)+parseInt(six)+parseInt(seven)+parseInt(eight);
+        var zzz = a+b+c+d+e+f+g+h;
+        document.getElementById("demo").innerHTML="YOUR CPI IS "+ (zzz/karan) +" !";
+
+        
+
+
+
+    }
+
+    
+    
+</script>
+    
+</body>
+</html>
